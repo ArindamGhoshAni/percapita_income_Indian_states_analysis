@@ -22,9 +22,6 @@ Geopandas
 Methodology
 Using web scraping techniques, the script fetches the per capita income data from the provided website. It parses the HTML content of the webpage using BeautifulSoup. The extracted data is then processed and transformed into a Pandas DataFrame for further analysis. The shapefile containing the geographical boundaries of Indian states is read using the Geopandas library. The per capita income data is merged with the shapefile based on the state names. The choropleth map is created using the merged data, where colour intensity represents the income levels of the states. State numbers and names are added to the map for better identification. The resulting visualization is displayed using Matplotlib.
 
-download
-
-download
 
 Results
 The project generates a choropleth map that visualizes the per capita income of Indian states. The map clearly represents the income disparities and patterns across different regions. Users can easily identify states with higher or lower income levels, allowing for a better understanding of the economic landscape in India.
